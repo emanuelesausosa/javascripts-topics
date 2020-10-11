@@ -20,8 +20,9 @@
    - null
    - number
    - String
+   - boolean
    - Object
-   - Symbol (ES6)
+   - Array   
 🔣. Operadores
    - Aritmetricos
      - Adición
@@ -31,8 +32,7 @@
      - unario (+)
      - unario (-)
      - incremento
-     - decremento
-     - asignación
+     - decremento     
    - Asignación
      - asignación (=)
      - destructuración
