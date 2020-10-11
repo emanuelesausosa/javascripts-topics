@@ -50,3 +50,34 @@ console.log(frase.toUpperCase());
 
 // lowercase
 console.log(frase.toLowerCase());
+
+// booleanos
+// true | false
+// 1 , 2,5   |  0
+
+// null -> false
+// undefined -> false
+
+// "" -> falso
+// NaN (Not a Number) -> false
+
+var soyTrue = true;
+var soyFalse = false;
+
+console.log("soyTrue ->", soyTrue);
+console.log("soyFalse ->", soyFalse);
+
+if (-5) {
+  console.log("Si me veras en la consola");
+}
+
+console.log("Soy un null -> ", Boolean(null));
+console.log("Soy un undefined -> ", Boolean(undefined));
+
+var stringVacio = "";
+if (stringVacio) {
+  stringVacio = "un string lleno";
+}
+console.log(stringVacio);
+
+
